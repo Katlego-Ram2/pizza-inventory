@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.35.6",
+    "@heroicons/react": "^2.2.0",
     "axios": "^1.13.2",
     "lucide-react": "^0.556.0",
     "mongoose": "^9.0.0",
