@@ -52,23 +52,7 @@ export default function Home() {
           ))}
         </div>
 
-        {/* Buttons */}
-        <div className="flex flex-col sm:flex-row gap-5 justify-center">
-          <Link
-            href="/sign-in"
-            className="px-8 py-4 rounded-full bg-gradient-to-r from-orange-600 to-yellow-500 hover:opacity-90 text-white font-semibold text-lg shadow-lg transition"
-          >
-            Sign In
-          </Link>
-
-          <Link
-            href="/sign-up"
-            className="px-8 py-4 rounded-full border-2 border-orange-600 text-orange-700 dark:text-orange-400 hover:bg-orange-50 dark:hover:bg-white/10 font-semibold text-lg transition"
-          >
-            Create Account
-          </Link>
-        </div>
-
+    
         <p className="text-center mt-10 text-sm text-zinc-600 dark:text-zinc-400">
           Crafted with ❤️ by <span className="font-semibold">Katlego Rampedi</span>
         </p>
